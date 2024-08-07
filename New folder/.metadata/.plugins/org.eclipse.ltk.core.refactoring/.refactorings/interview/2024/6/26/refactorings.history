@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.kavdu.Node.java&apos; to &apos;BinarySearchTree.java&apos;&#x0D;&#x0A;- Original project: &apos;interview&apos;&#x0D;&#x0A;- Original element: &apos;com.kavdu.Node.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.kavdu.BinarySearchTree.java&apos;" description="Rename compilation unit &apos;Node.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.kavdu{Node.java" name="BinarySearchTree.java" references="false" stamp="1719596324294" version="1.0"/>
+</session>

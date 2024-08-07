@@ -1,0 +1,34 @@
+package com.interview.prog;
+
+
+
+
+public class FactoryPatternExample {
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	//Client coded
+ public static void main(String[] args) {
+     ProductFactory factoryA = new ConcreteProductAFactory();
+     FactoryPatternExample productA = factoryA.createProduct();
+     productA.display(); // Output: This is Concrete Product A.
+
+     ProductFactory factoryB = new ConcreteProductBFactory();
+     FactoryPatternExample productB = factoryB.createProduct();
+     productB.display(); // Output: This is Concrete Product B.
+ }
+ 
+}
+ 
+

@@ -1,0 +1,72 @@
+package com.interview.prog;
+
+//Product interface
+interface FactoryPatternExample {
+ void display();
+}
+
+//Concrete product classes
+class ConcreteProductA implements FactoryPatternExample {
+ @Override
+ public void display() {
+     System.out.println("This is Concrete Product A.");
+ }
+}
+
+class ConcreteProductB implements FactoryPatternExample {
+ @Override
+ public void display() {
+     System.out.println("This is Concrete Product B.");
+ }
+}
+
+//Factory interface
+interface ProductFactory {
+ FactoryPatternExample createProduct();
+}
+
+//Concrete factory classes
+class ConcreteProductAFactory implements ProductFactory {
+ @Override
+ public FactoryPatternExample createProduct() {
+     return new ConcreteProductA();
+ }
+}
+
+class ConcreteProductBFactory implements ProductFactory {
+ @Override
+ public FactoryPatternExample createProduct() {
+     return new ConcreteProductB();
+ }
+}
+
+
+public class FactoryPatternExample {
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	//Client coded
+ public static void main(String[] args) {
+     ProductFactory factoryA = new ConcreteProductAFactory();
+     FactoryPatternExample productA = factoryA.createProduct();
+     productA.display(); // Output: This is Concrete Product A.
+
+     ProductFactory factoryB = new ConcreteProductBFactory();
+     FactoryPatternExample productB = factoryB.createProduct();
+     productB.display(); // Output: This is Concrete Product B.
+ }
+ 
+}
+ 
+

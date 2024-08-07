@@ -1,0 +1,18 @@
+package ploymorphism;
+
+public class Overloading {
+	public static void main(String[] args) {
+		 Overloading o = new Overloading();
+		 
+		 System.out.println(o.add(10, 20));
+	}
+	
+	public float add(int a, int b) {
+		return a+b;
+	}
+	
+	public int add(int c, int d, int e) {
+		return c+d+e;
+	}
+
+}

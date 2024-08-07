@@ -1,0 +1,47 @@
+package com.hussainIT;
+
+import java.util.List;
+
+class Address {
+	private String address;
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	
+	
+}
+class Employee {
+	private Integer empId;
+	private String empName;
+	private List<Address> addsresses;
+	public Employee(Integer empId, String empName, List<Address> addsresses) {
+		this.empId = empId;
+		this.empName = empName;
+		this.addsresses = addsresses;
+	}
+	
+	
+	
+	
+}
+public class Demo {
+
+	public static void main(String[] args) {
+	
+	Address add1=new Address();
+	
+	
+	Employee e1=new Employee(1,"khalid",);
+	
+    
+    String address = e1.getAddsress().get(0).getAddress();
+    System.out.println(address);
+
+	}
+
+}

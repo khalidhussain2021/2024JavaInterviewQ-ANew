@@ -1,0 +1,21 @@
+package com.hussainIT.thread;
+
+public class ThreadDemo1 extends Thread { 
+	static int number=0;
+	@Override
+	public void run() {
+		
+			System.err.println("i am cheild thread ");
+			System.out.println(Thread.currentThread().getName());
+			if(number%2==0) {
+				System.err.println("even ");
+			}else {
+				System.out.println("odd no ");
+			}
+	}
+	
+	public static void main(String[] args) {
+		new ThreadDemo1().start();
+		System.err.println(Thread.currentThread().getName());
+	}
+}

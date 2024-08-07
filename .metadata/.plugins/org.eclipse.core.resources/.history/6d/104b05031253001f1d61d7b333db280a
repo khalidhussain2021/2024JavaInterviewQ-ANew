@@ -1,0 +1,10 @@
+package com.hussainIT;
+
+public class CheckOddEvenUsingThread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

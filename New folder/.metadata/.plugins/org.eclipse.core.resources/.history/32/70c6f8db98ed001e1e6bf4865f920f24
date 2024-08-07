@@ -1,0 +1,14 @@
+package com.interview.prog;
+//security is a process of authentication and athorization.
+//Authenciation - process of verifying the identity of a user, based on provided credentials,like Who are you?
+//Authorization - process of determining if a user has proper permission to perform a particular action, assuming that the user is successfully authenticated.
+
+//1. add the Spring Security dependency in pom.xml
+/*
+	<dependencies>
+		<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+	</dependencies>
+*/

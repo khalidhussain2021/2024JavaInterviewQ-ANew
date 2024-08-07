@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.kavdu.LinkedListWithoutRecursion.java&apos; to &apos;LinkedList.java&apos;&#x0D;&#x0A;- Original project: &apos;interview&apos;&#x0D;&#x0A;- Original element: &apos;com.kavdu.LinkedListWithoutRecursion.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.kavdu.LinkedList.java&apos;" description="Rename compilation unit &apos;LinkedListWithoutRecursion.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.kavdu{LinkedListWithoutRecursion.java" name="LinkedList.java" references="false" stamp="1719801277794" version="1.0"/>
+</session>
