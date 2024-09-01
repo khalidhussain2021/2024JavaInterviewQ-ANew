@@ -17,7 +17,8 @@ public class LargestStringFinder {
 	        System.out.println("Largest string: " + largestString);
 	        
 	        //java 8 
-	       String largestString2 = Arrays.stream(strings).max(Comparator.comparingInt(String::length)).get();
+	       String largestString2 = Arrays.stream(strings).
+	    		   max(Comparator.comparingInt(String::length)).get();
 	       System.err.println(largestString2);
 	}
 	

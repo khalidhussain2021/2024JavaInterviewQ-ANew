@@ -1,16 +1,19 @@
 package com.hussainIT.thread;
 
 
-class MyRunableThread implements Runnable {
-   static int number1;
+class MyThreadDemo implements Runnable {
+	int number;
+	public MyThreadDemo(int number) {
+		this.number=number;
+	}
 	@Override
 	public void run() {
-		if(number1 %2==0) 
-			System.out.println("Hi ");
-		else
-			System.out.println("Bye");
+		if(number % 2==0) {
+			System.err.println("even No "+number);
+		}else {
+			System.out.println("odd No "+number);
+		}
 	}
-	
 }
 public class ThreadDemo1 extends Thread { 
 	static int number;
@@ -36,7 +39,11 @@ public class ThreadDemo1 extends Thread {
 		
 		}
 		
-		MyRunableThread myRunableThread = new MyRunableThread();
-		new Thread(myRunableThread).start();
+		for(int i=1;i<20;i++) {
+			MyThreadDemo myThreadDemo = new MyThreadDemo(i);
+			Thread thread = new Thread(myThreadDemo);
+			thread.start();
+			
+		}
 	}
 }

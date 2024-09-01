@@ -1,5 +1,7 @@
 package com.array;
 
+import java.util.Arrays;
+
 public class MissingElementInArray {
 	
 	public static void main(String[] args) {
@@ -14,9 +16,6 @@ public class MissingElementInArray {
 		  }
 		  System.out.println(sum - actualSum);
 		  
-		  // java 8
-//		  int actualSum = Arrays.stream(input1).sum();
-//		  System.out.println(sum - actualSum);
 	}
 
 }

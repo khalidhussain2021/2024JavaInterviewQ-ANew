@@ -1,7 +1,9 @@
 package com.array;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class ReverseArrayAndFindUniqElement {
@@ -17,11 +19,11 @@ public class ReverseArrayAndFindUniqElement {
 		}
 		System.out.println(Arrays.toString(temp));
 		
-        Integer[] input = {1,2,1,2,3,4,5,6,4};
-		
-		
+       
+		Integer[] input = {1,2,1,2,3,4,5,6,4};
 		System.out.println(uniquElement(input));
-
+		
+		findTheUniquevalueList();
 		
 	}
 	//second senario	
@@ -36,6 +38,19 @@ public class ReverseArrayAndFindUniqElement {
 			 }
 		 }
 		return hashSet;
+	}
+	
+	//find the unique value using in the arrayList
+	
+	private static void findTheUniquevalueList() {
+		List<Integer> list=Arrays.asList(12,4,5,8,9,12,88,90,90,1,90);
+		List<Integer> result=new ArrayList<>();
+		for(Integer e:list) {
+			if(!result.contains(e)) {
+				result.add(e);
+			}
+		}
+		System.err.println(result);
 	}
 
 }

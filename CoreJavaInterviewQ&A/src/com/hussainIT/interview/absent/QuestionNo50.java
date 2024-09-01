@@ -10,8 +10,8 @@ public class QuestionNo50 {
 
 }
 class BankAccount {
-//	private double balance;
-	public double balance;
+	private double balance;
+//	public double balance;
 	
 	public BankAccount(double initialBalance) {
 		balance=initialBalance;

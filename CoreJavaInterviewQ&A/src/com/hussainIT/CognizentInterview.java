@@ -62,6 +62,11 @@ public class CognizentInterview {
 	String add = e1.getAddsresses().get(0).getAddress();
     System.out.println(add);
     
+//    Printing all addresses added in the Employee object
+    for (Address address : e1.getAddsresses()) {
+        System.out.println(address.getAddress());
+    }
+    
 	}
 	
     

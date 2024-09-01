@@ -8,6 +8,7 @@ public class RemoveDuplicateCharacterUsingjava8 {
     public static void main(String[] args) {
     	 A a = new B();
          System.out.println(a.i);
+         
          String str="GoodMorning";
 
          Set<Character> set=new HashSet<>();

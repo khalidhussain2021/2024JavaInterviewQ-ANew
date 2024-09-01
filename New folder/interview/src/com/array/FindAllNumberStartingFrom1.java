@@ -19,7 +19,7 @@ public class FindAllNumberStartingFrom1 {
 
 		Integer[]numbs={10,15,8,49,25,98,32,191};
 		
-		List<String> collect = Arrays.stream(numbs).map(s->s +" ").filter(s->s.startsWith("1")).collect(Collectors.toList());
+		List<Integer> collect = Arrays.stream(numbs).map(s->s +"").filter(s->s.startsWith("1")).map(Integer::valueOf).collect(Collectors.toList());
 	
 	    System.out.println(collect);
 	    

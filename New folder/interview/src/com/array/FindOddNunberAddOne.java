@@ -19,15 +19,15 @@ public class FindOddNunberAddOne {
 		//odd, even
 		List<Integer> collect1 = Arrays.asList(input).stream().filter(e->{
 			if(e%2==0) {
-//				System.out.println("odd "+e);
+				System.out.println("odd "+e);
 			}else {
-//				System.out.println("even "+e);
+				System.out.println("even "+e);
 			}
 				
 		return flag;
 		}
 		).map(a->a+1).collect(Collectors.toList());
-//		System.out.println(collect1);
+		System.out.println(collect1);
 	}
 
 }

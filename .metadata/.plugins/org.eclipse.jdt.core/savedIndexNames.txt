@@ -24,7 +24,6 @@ INDEX VERSION 1.134+D:\Program2024\InterviewJavaProgram2024\.metadata\.plugins\o
 303729761.index
 1042151711.index
 3448678224.index
-3493212492.index
 28615325.index
 1483584424.index
 3301474083.index

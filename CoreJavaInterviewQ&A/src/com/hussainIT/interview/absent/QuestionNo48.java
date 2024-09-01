@@ -6,11 +6,15 @@ package com.hussainIT.interview.absent;
  * 
  * In the context of microservice architecture, the statements can be evaluated as follows:
 
-The client can directly communicate with the service: This statement is generally correct. In microservice architecture, it's common for clients to directly communicate with individual services, especially when using patterns like API Gateway, where the gateway routes requests to the appropriate service.
+The client can directly communicate with the service: This statement is generally correct.
+ In microservice architecture, it's common for clients to directly communicate with individual services, especially when using patterns like API Gateway, 
+ where the gateway routes requests to the appropriate service.
 
 One service can communicate with one service at a time: This statement is incorrect. In microservice architecture, services can communicate with multiple other services simultaneously, often through RESTful APIs, message brokers, or other forms of inter-service communication.
 
-The developer is allowed to configure service calls dynamically: This statement is generally correct. In microservice architecture, developers often have the flexibility to configure and orchestrate service calls dynamically, especially when using service mesh, API gateways, or dynamic routing mechanisms.
+The developer is allowed to configure service calls dynamically: This statement is generally correct. In microservice architecture, 
+developers often have the flexibility to configure and orchestrate service calls dynamically, especially when using service mesh, API gateways, 
+or dynamic routing mechanisms.
  
  * 
  * Statement 1: Correct
@@ -18,7 +22,8 @@ Statement 2: Incorrect
 Statement 3: Correct
 
 *
-*Alice is working on MongoDB. she mistakenly adds one document after deploying she realize that it  has terrible result which of the following command ? Dababase  {_id : objectId("50001"),title:MangoDB overview"} {_id:objectId("500002"),title :"Nosql overview"},objectId("50001"),title:MangoDB overview"} {_id:objectId("500003"),title :"tutorial point }, here the Nosql overview is the wrong document the valid command for  Nosql overview  a. db.mycol.removeALL({"title",NoSQLOverview"}) b.a. db.mycol.removeAt({"title",NoSQLOverview"}) c.
+*Alice is working on MongoDB. she mistakenly adds one document after deploying she realize that it  has terrible result which of the following command ? 
+*Dababase  {_id : objectId("50001"),title:MangoDB overview"} {_id:objectId("500002"),title :"Nosql overview"},objectId("50001"),title:MangoDB overview"} {_id:objectId("500003"),title :"tutorial point }, here the Nosql overview is the wrong document the valid command for  Nosql overview  a. db.mycol.removeALL({"title",NoSQLOverview"}) b.a. db.mycol.removeAt({"title",NoSQLOverview"}) c.
 * a. db.mycol.remove({"title",NoSQLOverview"})  d.db.mycol.removeUp({"title",NoSQLOverview"})
 * 
 * To remove the document with the title "Nosql overview" in MongoDB, the correct command is:

@@ -6,7 +6,7 @@ import com.hussainIT.arrayList.Employee;
 
 public class HashSetDemo {
 	public static void main(String[] args) {
-		HashSet hashSet =new HashSet<>();
+		HashSet<Object> hashSet =new HashSet<>();
 		hashSet.add("Khalid");
 		hashSet.add(90);
 		hashSet.add('A');
@@ -21,16 +21,16 @@ public class HashSetDemo {
 		System.out.println(hashSet2);
 		//union
 		hashSet.addAll(hashSet2);
-		System.out.println("unioun : "+hashSet);
+//		System.out.println("unioun : "+hashSet);
 		//intersection
 		hashSet.retainAll(hashSet2);
-		System.err.println(hashSet);
+//		System.err.println(hashSet);
 		//difference 
 		hashSet.removeAll(hashSet2);
-		System.err.println(hashSet);
+//		System.err.println(hashSet);
 		//subset
 		hashSet.retainAll(hashSet2);
-		System.err.println("subset of  "+hashSet);
+//		System.err.println("subset of  "+hashSet);
 	}
 	
 

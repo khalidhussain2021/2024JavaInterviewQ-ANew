@@ -10,7 +10,7 @@ public class DifferenceBetweenHourMinate {
 
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
-		System.out.println("Enter the date : dd-mm-yyyy");
+		System.out.println("Enter the date : dd/mm/yyyy");
 		String inputDate=sc.nextLine();
 		DateTimeFormatter dateTimeFormatter=DateTimeFormatter.ofPattern("dd/MM/yyyy");
 		try {

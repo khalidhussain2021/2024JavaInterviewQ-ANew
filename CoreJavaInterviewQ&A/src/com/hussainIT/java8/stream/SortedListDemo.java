@@ -35,5 +35,15 @@ public class SortedListDemo {
 		List<Employee> sortedSalary4 = employees.stream().sorted(Comparator.comparing(Employee::geteName).reversed()).collect(Collectors.toList());
 		
 		System.out.println(sortedSalary4);
+//		int sum = listOfvehical.stream()
+//				                     .filter(w -> w.getColor() == RED)
+//				                      .mapToInt(w -> w.getWeight())
+//				                    .sum();
+		
+//		 List<Integer> integers = numbers.<Integer>mapMulti((number, consumer) -> {
+//		     *             if (number instanceof Integer i)
+//		     *                 consumer.accept(i);
+//		     *         })
+//		     *         .collect(Collectors.toList());
 	}
 }

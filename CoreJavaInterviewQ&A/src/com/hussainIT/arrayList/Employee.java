@@ -29,7 +29,7 @@ public class Employee {
 	public void seteSalary(long eSalary) {
 		this.eSalary = eSalary;
 	}
-	public Employee(int eId, String eName, int eAge, long eSalary) {
+	public Employee() {
 		this.eId = eId;
 		this.eName = eName;
 		this.eAge = eAge;
