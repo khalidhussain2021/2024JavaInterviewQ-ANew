@@ -11,12 +11,14 @@ import java.util.stream.Collectors;
 
 public class MapSorting {
 	public static void main(String[] args) {
-		   
+		    //list sorting  java 8
 			List<Employee> empList = Arrays.asList(new Employee(1l, "us",21d,30),new Employee(4l, "indi", 33d,44), new Employee(3l, "ukk",48d,90));
 		
 			List<Employee> collect = empList.stream().sorted(Comparator.comparing(Employee::getName).reversed()).filter(c->c.getName().length()>0).collect(Collectors.toList());
 		
-	   System.out.println(collect);
+			System.out.println(collect);
+			
+			//map sorting using java 8 
 			
 	          Map<String,Integer> map=new HashMap<>();
 	          map.put("abc",3);

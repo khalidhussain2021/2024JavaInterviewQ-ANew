@@ -1,5 +1,7 @@
 package com.string;
 
+import java.util.Objects;
+
 public class Employee {
  private Long id;
  private String name;
@@ -30,6 +32,22 @@ public void setSalry(Double salry) {
 @Override
 public String toString() {
 	return "Employee [id=" + id + ", name=" + name + ", salry=" + salry + "]";
+}
+
+@Override
+public int hashCode() {
+	return Objects.hash(id, name, salry);
+}
+@Override
+public boolean equals(Object obj) {
+	if (this == obj)
+		return true;
+	if (obj == null)
+		return false;
+	if (getClass() != obj.getClass())
+		return false;
+	Employee other = (Employee) obj;
+	return Objects.equals(id, other.id) && Objects.equals(name, other.name) && Objects.equals(salry, other.salry);
 }
  
 

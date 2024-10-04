@@ -8,7 +8,8 @@ import java.util.Map;
 public class MapIntoListAndListIntoMap {
 
 	public static void main(String[] args) {
-		//can we take map into list??
+		//can we take map into list
+		// basic operation demonstrates how to store lists as values in a HashMap
 		Map<String,List<Integer>> hashMap = new HashMap<>();
 		
 		List<Integer> arrayList = new ArrayList<>();
@@ -16,7 +17,7 @@ public class MapIntoListAndListIntoMap {
 		arrayList.add(2);
 		arrayList.add(3);	
 	hashMap.put("key1",arrayList );
-	System.out.println(hashMap);
+    System.out.println(hashMap);
 	
 	 // can we take list into map
 	

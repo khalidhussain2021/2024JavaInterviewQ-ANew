@@ -15,7 +15,6 @@ public class Employee {
 	private List<Contact> listContact;
 
 	public Employee(Long id, String name, Double salary, Integer age, List<Contact> listContact) {
-		super();
 		this.id = id;
 		this.name = name;
 		this.salary = salary;

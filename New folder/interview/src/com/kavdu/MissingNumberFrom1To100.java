@@ -11,7 +11,7 @@ public class MissingNumberFrom1To100 {
 	    /*
 	     * Method finds out missing number in given range.
 	     */
-	    static public void displayMissing(){
+	    static public void displayMissing() {
 	           
 	           System.out.print("given array(already sorted): ");
 	           for (int j = 0; j < ar.length; j++)

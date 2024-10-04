@@ -1,0 +1,142 @@
+[
+  {
+    "employeeName": "John Doe",
+    "employeeAddress": "123 Main St, New York, NY",
+    "employeeSalary": 60000.50,
+    "employeeDepartment": "HR",
+    "employeeEmail": "john.doe@example.com"
+  },
+  {
+    "employeeName": "Jane Smith",
+    "employeeAddress": "456 Oak Ave, Los Angeles, CA",
+    "employeeSalary": 72000.75,
+    "employeeDepartment": "IT",
+    "employeeEmail": "jane.smith@example.com"
+  },
+  {
+    "employeeName": "Michael Johnson",
+    "employeeAddress": "789 Pine Rd, Chicago, IL",
+    "employeeSalary": 80000.00,
+    "employeeDepartment": "Finance",
+    "employeeEmail": "michael.johnson@example.com"
+  },
+  {
+    "employeeName": "Emily Davis",
+    "employeeAddress": "321 Cedar St, Houston, TX",
+    "employeeSalary": 65000.00,
+    "employeeDepartment": "Marketing",
+    "employeeEmail": "emily.davis@example.com"
+  },
+  {
+    "employeeName": "Robert Brown",
+    "employeeAddress": "654 Willow Ln, Philadelphia, PA",
+    "employeeSalary": 56000.00,
+    "employeeDepartment": "Operations",
+    "employeeEmail": "robert.brown@example.com"
+  },
+  {
+    "employeeName": "Sarah Wilson",
+    "employeeAddress": "987 Maple Ave, Phoenix, AZ",
+    "employeeSalary": 78000.00,
+    "employeeDepartment": "Sales",
+    "employeeEmail": "sarah.wilson@example.com"
+  },
+  {
+    "employeeName": "David Moore",
+    "employeeAddress": "432 Birch Blvd, San Antonio, TX",
+    "employeeSalary": 59000.00,
+    "employeeDepartment": "HR",
+    "employeeEmail": "david.moore@example.com"
+  },
+  {
+    "employeeName": "Laura Taylor",
+    "employeeAddress": "567 Spruce St, San Diego, CA",
+    "employeeSalary": 70000.00,
+    "employeeDepartment": "IT",
+    "employeeEmail": "laura.taylor@example.com"
+  },
+  {
+    "employeeName": "Chris Anderson",
+    "employeeAddress": "876 Fir Ave, Dallas, TX",
+    "employeeSalary": 85000.00,
+    "employeeDepartment": "Finance",
+    "employeeEmail": "chris.anderson@example.com"
+  },
+  {
+    "employeeName": "Sophia Thomas",
+    "employeeAddress": "543 Elm St, San Jose, CA",
+    "employeeSalary": 62000.00,
+    "employeeDepartment": "Marketing",
+    "employeeEmail": "sophia.thomas@example.com"
+  },
+  {
+    "employeeName": "Mark Harris",
+    "employeeAddress": "222 Walnut Ave, Austin, TX",
+    "employeeSalary": 58000.00,
+    "employeeDepartment": "Operations",
+    "employeeEmail": "mark.harris@example.com"
+  },
+  {
+    "employeeName": "Olivia Martin",
+    "employeeAddress": "123 Chestnut St, Jacksonville, FL",
+    "employeeSalary": 79000.00,
+    "employeeDepartment": "Sales",
+    "employeeEmail": "olivia.martin@example.com"
+  },
+  {
+    "employeeName": "James Thompson",
+    "employeeAddress": "456 Hickory Ln, Columbus, OH",
+    "employeeSalary": 62000.00,
+    "employeeDepartment": "HR",
+    "employeeEmail": "james.thompson@example.com"
+  },
+  {
+    "employeeName": "Isabella White",
+    "employeeAddress": "789 Dogwood Dr, Indianapolis, IN",
+    "employeeSalary": 83000.00,
+    "employeeDepartment": "IT",
+    "employeeEmail": "isabella.white@example.com"
+  },
+  {
+    "employeeName": "William Scott",
+    "employeeAddress": "321 Magnolia Ave, San Francisco, CA",
+    "employeeSalary": 90000.00,
+    "employeeDepartment": "Finance",
+    "employeeEmail": "william.scott@example.com"
+  },
+  {
+    "employeeName": "Mia Walker",
+    "employeeAddress": "654 Palm St, Fort Worth, TX",
+    "employeeSalary": 68000.00,
+    "employeeDepartment": "Marketing",
+    "employeeEmail": "mia.walker@example.com"
+  },
+  {
+    "employeeName": "Benjamin Green",
+    "employeeAddress": "987 Cypress Dr, Charlotte, NC",
+    "employeeSalary": 64000.00,
+    "employeeDepartment": "Operations",
+    "employeeEmail": "benjamin.green@example.com"
+  },
+  {
+    "employeeName": "Amelia Young",
+    "employeeAddress": "432 Redwood Ln, Detroit, MI",
+    "employeeSalary": 71000.00,
+    "employeeDepartment": "Sales",
+    "employeeEmail": "amelia.young@example.com"
+  },
+  {
+    "employeeName": "Elijah King",
+    "employeeAddress": "567 Ash St, Denver, CO",
+    "employeeSalary": 56000.00,
+    "employeeDepartment": "HR",
+    "employeeEmail": "elijah.king@example.com"
+  },
+  {
+    "employeeName": "Charlotte Martinez",
+    "employeeAddress": "876 Oak St, El Paso, TX",
+    "employeeSalary": 76000.00,
+    "employeeDepartment": "IT",
+    "employeeEmail": "charlotte.martinez@example.com"
+  }
+]

@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -20,13 +21,18 @@ public class FindNonDuplicateOrRepetable {
 				map.put(c, map.get(c)+1);
 				}
 			}
-		List<Entry<Character, Integer>> collect = map.entrySet()
-		.stream()
-		.filter(count -> count.getValue()>1)
-		.collect(Collectors.toList());
-		System.out.println(collect);
-	
+		 for(Map.Entry<Character,Integer> en:map.entrySet()) {
+			 if(en.getValue()>1) {
+				 System.out.println( en.getKey() +" key -->" + en.getValue() +" values");
+			 }
+		 }
+		
 		//using java 8
+		 Map<Character, Long> result = name.chars().mapToObj(c->(char)c).
+		 collect(Collectors.groupingBy(Function.identity(),Collectors.counting()))
+		 .entrySet().stream().filter(entry->entry.getValue()>1).collect(Collectors.toMap(Entry::getKey,Entry::getValue));
+		 System.err.println(result);
+		 
 		List<String> collect2 = Arrays.stream(name.split(""))
 		.collect(Collectors.groupingBy(Function.identity(),Collectors.counting()))
 		.entrySet().stream()

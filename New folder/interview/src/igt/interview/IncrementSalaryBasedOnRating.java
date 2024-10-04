@@ -24,6 +24,8 @@ public class IncrementSalaryBasedOnRating {
 				));
 		System.out.println(collect);
 		
+		
+		
 	}
 
 }

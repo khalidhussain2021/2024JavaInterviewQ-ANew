@@ -4,7 +4,8 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
+import com.string.Employee;
 
 public class SecondLargestUsingJava8 {
 	public static void main(String[] args) {
@@ -16,12 +17,12 @@ public class SecondLargestUsingJava8 {
 		//comparing first name then salary
 	List<Employee> collect1 = empList.stream().sorted(Comparator.comparing(Employee::getName)
 		.thenComparingDouble(Employee::getSalary)).collect(Collectors.toList());
-//	System.out.println(collect1);
+	System.out.println(collect1);
 	
 		//find 2nd largest salary
-		 List<Employee> collect2 = empList.stream().sorted(Comparator.comparingDouble(Employee::getSalary).reversed())
-				 .collect(Collectors.toList());
-//	    System.out.println(collect2.get(1));
+		 Employee secondlargest = empList.stream().sorted(Comparator.comparingDouble(Employee::getSalry).reversed()).
+					skip(1).findFirst().get();
+		 System.err.println(secondlargest);
 	    
 	    //find salary greater than 60k and sorted by ascending and descending
 	    List<Employee> collect3 = empList.stream().filter(empSal->empSal.getSalary()>60000)
@@ -33,14 +34,14 @@ public class SecondLargestUsingJava8 {
 	   List<Employee> emp= empList.stream().filter(empAge->{
 		   if(empAge.getAge()>30) {
 		   
-	   System.out.println("Older "+empAge);
+//	   System.out.println("Older "+empAge);
 		   
 	   }else{
 	    		System.out.println("Younger "+ empAge);
 	    	} 
 		   return flag;
 	    }).collect(Collectors.toList());
-	    System.out.println(emp);
+//	    System.out.println(emp);
 	    
 	}
 

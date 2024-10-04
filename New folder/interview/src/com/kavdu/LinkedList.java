@@ -1,11 +1,8 @@
 package com.kavdu;
 
-import java.util.*;
-
 public class LinkedList {
-
+	
     static Node head;
-
     static class Node {
 
         int data;

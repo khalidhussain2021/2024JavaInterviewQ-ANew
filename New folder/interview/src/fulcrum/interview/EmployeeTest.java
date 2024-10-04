@@ -18,24 +18,25 @@ public class EmployeeTest {
         //Get the Average salary for each department - should return Map<String, Double>
         Map<String, Double> res = employees.stream().collect(Collectors.groupingBy(Employee::getEmp_dept,Collectors.averagingDouble(Employee::getEmp_salary)));
 	
-//	      System.out.println(res);
+        System.out.println(res);
         
 	    //Get the max salary per department - should return Map<String, Long>
+        
 	      Map<String, Long> collect = employees.stream()
           .collect(Collectors.groupingBy(Employee::getEmp_dept,
                   Collectors.mapping(Employee::getEmp_salary,
                           Collectors.collectingAndThen(Collectors.maxBy(Double::compare),
                                   maxOpt -> maxOpt.map(Double::longValue).orElse(0L)))));
-
-//	     System.out.println(collect);
+	     System.out.println(collect);
 	     //Get the Employee information for each department - should return Map<String, List<Employee>>
+	      
 	     Map<String, List<Employee>> collect3 = employees.stream()
          .collect(Collectors.groupingBy(Employee::getEmp_dept));
 //	     System.out.println(collect3);
 	     
 	     //Sort the Employees by Salary - should return List<Employee>
 	     List<Employee> emp=employees.stream().sorted(Comparator.comparing(Employee::getEmp_salary)).collect(Collectors.toList());
-	     System.out.println(emp);
+//	     System.out.println(emp);
 	     
 	   // demo
 	     

@@ -1,6 +1,12 @@
 package com.interview.prog;
 //security is a process of authentication and athorization.
 //Authenciation - process of verifying the identity of a user, based on provided credentials,like Who are you?
+//Authentication is the process of verifying the identity of a user or system to ensure that they are who they claim to be. 
+//It typically involves verifying credentials, such as usernames and passwords, but can also include other 
+//methods such as biometric verification (fingerprints, facial recognition), security tokens, or multi-factor authentication (MFA), 
+//where multiple forms of verification are used.
+//In software systems, authentication ensures that only authorized users can access certain resources, systems, or data.
+
 //Authorization - process of determining if a user has proper permission to perform a particular action, assuming that
 //the user is successfully authenticated.
 

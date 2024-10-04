@@ -11,7 +11,6 @@ public class SplitListIntwoArrayFormat {
 	        for(int i =0;i<list.size();i+=2) {
 	        	
 	        	List<Integer> pairlist = new ArrayList<>();
-	        	
 	        	pairlist.add(list.get(i));
 	        	if(i+1 < list.size()) {
 	        		pairlist.add(list.get(i+2));

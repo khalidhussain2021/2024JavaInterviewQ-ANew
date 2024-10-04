@@ -9,9 +9,11 @@ public class RemoveNullandEmpty {
 	public static void main(String[] args) {
 		List<String> asList = Arrays.asList("",null,"satyam","dixit");
 		
+		//java 8
 		String str = asList.stream().filter(f->f != null && !f.isEmpty())
 		.collect(Collectors.joining(","));
 //	    System.out.println(str);
+		//normal 
 		  StringBuilder stringBuilder = new StringBuilder();
 		for(String name : asList) {
 			if(name !=null && !name.isEmpty()) {
